@@ -13,7 +13,7 @@ Run the below Maven command.
 
     mvn clean test
 
-To run specific test you can choose one tag and add to command maven
+To run specific test you can choose one tag from the **features files** in **/src/test/resources/features** and add to command maven
 
     mvn clean test -Dgroups='challenge'
 
